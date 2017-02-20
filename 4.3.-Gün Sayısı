@@ -1,0 +1,8 @@
+import datetime
+dgm_yıl=int(input("Doğum Yılınız:"))
+dgm_ay=int(input("Ay:"))
+dgm_gun=int(input("Gün:"))
+dgm_trh=datetime.datetime(dgm_yıl,dgm_ay,dgm_gun)
+bugün=datetime.datetime.now()
+fark=bugün-dgm_trh
+print(fark)
